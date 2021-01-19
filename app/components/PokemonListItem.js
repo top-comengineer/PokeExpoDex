@@ -1,7 +1,6 @@
 import React from 'react'
 import { ListItem, Avatar } from 'react-native-elements'
 import TouchableScale from 'react-native-touchable-scale'
-import LinearGradient from 'react-native-linear-gradient'
 
 const PokemonListItem = ({ name, id, onPress })=>(
   <ListItem 
@@ -17,7 +16,6 @@ const PokemonListItem = ({ name, id, onPress })=>(
     onPress={onPress}
     rounded 
     tension={100}
-    ViewComponent={LinearGradient}
   >
     <Avatar 
       size={"medium"}
