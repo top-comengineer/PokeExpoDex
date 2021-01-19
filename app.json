@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "pokedexEXPO",
+    "name": "Simple Pokedex",
     "slug": "pokedexEXPO",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -27,6 +27,7 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "This is a sample of a Pokedex with a deprecated linear gradient that will need to be adjusted. "
   }
 }
