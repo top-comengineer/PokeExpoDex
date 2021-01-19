@@ -1,6 +1,7 @@
 import React from 'react'
 import { ListItem, Avatar } from 'react-native-elements'
 import TouchableScale from 'react-native-touchable-scale'
+import { LinearGradient } from 'expo-linear-gradient';
 
 const PokemonListItem = ({ name, id, onPress })=>(
   <ListItem 
@@ -8,11 +9,6 @@ const PokemonListItem = ({ name, id, onPress })=>(
     bottomDivider
     Component={TouchableScale}
     friction={90}
-    linearGradientProps={{
-      colors: ['red', 'orange'],
-      start: { x: .2, y: 0 },
-      end: { x: 0.8, y: 0 },
-    }}
     onPress={onPress}
     rounded 
     tension={100}
